@@ -8,6 +8,7 @@ namespace AreaTriangles
 {
     class Program
     {
+        // Определить, площадь какого из 2х треуголников больше 
         static double AreaTriangle(int sideA, int sideB, int sideC)
         {
             int p = (sideA + sideB + sideC) / 2;
